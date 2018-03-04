@@ -2,3 +2,5 @@ node_modules/
 .vscode/
 .expo/
 npm-debug.*
+.env
+rules.json

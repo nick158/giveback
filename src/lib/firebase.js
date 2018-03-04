@@ -28,6 +28,7 @@ if (
 
   firebaseInitialized = true;
 }
-
+//Link to the firebase data base
 export const FirebaseRef = firebaseInitialized ? FirebaseModule.database().ref() : null;
+//reference to the app instance that was initialized
 export const Firebase = firebaseInitialized ? FirebaseModule : null;
